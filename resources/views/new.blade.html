@@ -1,0 +1,19 @@
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+
+<input id=param>
+
+<script>
+	var param = document.getElementById("param");
+
+axios.post('/url', {
+	param: value,
+	param2: value2,
+}).then(response => {
+	var data = [],
+
+	data = respnse.data
+}).catch(function(error){console.log(error)})
+
+
+</script>

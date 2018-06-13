@@ -1,0 +1,96 @@
+
+ html, body {
+                height: 100%;
+            }
+ body {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                display: table;                
+				font-family: 'Ubuntu', sans-serif!important;
+                /*background-color: #acb4cb!important;*/
+                background-image: url("../images/bc20.jpg");
+			    background-repeat: no-repeat;
+			    background-position: center;
+			    background-size: cover;
+			    -webkit-background-size: cover;
+			    -moz-background-size: cover;
+				-o-background-size: cover;
+            }
+
+.container {
+         text-align: center;
+         display: table-cell;
+         vertical-align: middle;
+
+
+   }
+   .header1{
+   	 font-family: 'Ubuntu', sans-serif;
+   	 font-size: 15px;
+   	 color: Black;
+   }
+
+
+     .content {
+                text-align: center;
+                display: inline-block;
+            }
+
+      
+ input[type=password], input[type=text]{
+   	border: 0!important;
+   	outline: 0!important;
+   	background: transparent!important;
+   	border-bottom: 2px solid #d3d3d3!important;
+   	box-shadow: none!important;
+   	padding-bottom: 0px!important;
+   	text-align: center;
+	font-family: 'Roboto', sans-serif;
+  
+   }
+    input[type=password]:focus, input[type=password]:active,
+     input[type=text]:focus, input[type=text]:active, input[type=text]:active{
+   	border: 0!important;
+   	outline: 0!important;
+   	background: transparent!important;
+   	border-bottom: 2px solid #ffbf00!important;
+   	box-shadow: none!important;
+   	padding-bottom: 0px!important;
+   	/*-webkit-transition: 0.5s ease-in; 
+    moz-transition:0.5s ease-in;
+    o-transition:0.5s ease-in;*/
+
+   }
+
+  .card{
+	border:1px solid  #253c80;
+	/*box-shadow: 1px 1px 1px pink;*/
+	/*background-color: #f4f5f8!important;*/
+	margin:5px;
+	}
+.card:hover{
+	/*border:2px solid purple!important;
+	width: 250px!important;
+	transition:all 0.7 ease-out!important;*/
+	}
+  .card-subtitle1{
+    color: #ffbf00;
+    font-size: 15px;
+  }
+   .card-subtitle2{
+    color:#ffbf00;
+    font-size: 15px;
+  }
+.form-group{
+	padding: 20px 60px;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+
+a{
+	color: black!important;
+	font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+}
+

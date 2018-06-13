@@ -1,0 +1,24 @@
+.btn-primary{
+	background-color:#e72764!important;
+	border: 1px solid white!important;
+	border-radius: 13px;
+	padding: 5px 10px;
+	color: white;
+	font-family: 'Ubuntu', sans-serif!important;
+	font-size: 20px;
+}
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover{
+	background-color:#ae1345!important;
+	border-radius: 4px;
+
+}
+
+.color-green{
+	color: #ae1345!important;
+}
+.btn-default{ 
+  border: 1px solid #ae1345!important;
+}
+
+
+

@@ -1,0 +1,87 @@
+.wrapper{
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+
+}
+ .login-nav{
+  background-image: url("../images/bweza2.jpg");
+  margin:0px!important;
+  padding:12px 0px;
+  background-color:#fff ;
+  color:#000000;  
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;  
+  border-bottom: 1px solid #d3d3d3!important;
+  height: 72px;
+  vertical-align: middle;
+ }
+
+.login-nav > a:hover {
+text-decoration:none!important;
+}
+
+  .login-body{
+  margin:0px!important;
+  padding:0px;
+  background-color:#fff ;
+  color:#000000;  
+  width: 100%;
+  font-family: 'Muli', sans-serif;
+  font-size: 24px;
+  vertical-align: middle;
+  height: 82%;
+  border-bottom: 1px solid #d3d3d3 !important;
+  background-color: #fff!important;
+  background-image: url("../images/logincover2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+ }
+
+   .login-footer{
+  margin:0px!important;
+  padding:5px;
+  background-color:#fff;
+  color:#000000;  
+  width: 100%;
+  font-family: 'Muli', sans-serif;
+  font-size: 24px;
+  vertical-align: middle;
+  bottom:0;
+ }      
+ input[type=password], input[type=text]{
+   	border: 0!important;
+   	outline: 1px!important;
+   	background: transparent!important;
+   	/*border-bottom: 2px solid #d3d3d3!important;*/
+   	box-shadow: none!important;
+   	padding-bottom: 0px!important;
+   	text-align: left;
+	  font-family: 'Roboto', sans-serif;
+    color: #4a4a4a;
+  
+   }
+    input[type=password]:focus, input[type=password]:active,
+     input[type=text]:focus, input[type=text]:active, input[type=text]:active{
+  
+   	outline: 0px!important;
+   	background: transparent!important;
+   	box-shadow: none!important;
+   	padding-bottom: 0px!important;
+   	-webkit-transition: 0.5s ease-in; 
+    moz-transition:0.5s ease-in;
+    o-transition:0.5s ease-in;
+   }
+
+a{
+	color: black!important;
+	font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+}
+
